@@ -49,9 +49,23 @@ export default function App() {
             <Images />
           </Scroll>
           <Scroll html>
-            <h1 style={{ position: 'absolute', top: '60vh', left: '0.5em' }}>to</h1>
-            <h1 style={{ position: 'absolute', top: '120vh', left: '60vw' }}>be</h1>
-            <h1 style={{ position: 'absolute', top: '198.5vh', left: '0.5vw', fontSize: '40vw' }}>home</h1>
+            <h1 className="absolute top-[23vh] left-[0.5em] text-7xl ">Catering & Cocktails</h1>
+            <h1 className="absolute top-[70vh] left-[1vw] text-[18rem]">Feliks</h1>
+            <div className="absolute top-[225.5vh] left-[2vw] text-4xl text-white w-[80vw] space-y-4 bg-black/50 backdrop-blur-sm m-4 p-4 py-8">
+              <h1 className="text-4xl">Contacts: </h1>
+              <p className=" text-2xl">
+                Email:{' '}
+                <a className="cursor-pointer" href="mailto:felix.mitish@gmail.com">
+                  felix.mitish@gmail.com{' '}
+                </a>
+              </p>
+              <p className=" text-2xl">
+                Phone:{' '}
+                <a className="cursor-pointer" href="tel:+33751470478">
+                  +33751470478{' '}
+                </a>
+              </p>
+            </div>
           </Scroll>
         </ScrollControls>
         <Preload />
