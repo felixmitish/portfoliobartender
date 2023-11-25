@@ -7,13 +7,8 @@ import App from './App.js'
 export function Overlay() {
   return (
     <div style={{ position: 'absolute', top: 0, left: 0, pointerEvents: 'none', width: '100%', height: '100%' }}>
-      <a href="https://pmnd.rs/" style={{ position: 'absolute', bottom: 40, left: 90, fontSize: '13px' }}>
-        pmnd.rs
-        <br />
-        Bar Catering Cote d&apos;Azur
-      </a>
-      <div style={{ position: 'absolute', top: 40, left: 40, fontSize: '13px' }}>good —</div>
-      <div style={{ position: 'absolute', bottom: 40, right: 40, fontSize: '13px' }}>10/15/2021</div>
+      <div className="absolute bottom-4 left-8 bg-white/30 px-2 rounded-sm backdrop-blur-sm"> Bar Catering Cote d&apos;Azur </div>
+      <div style={{ position: 'absolute', top: 40, left: 40, fontSize: '13px' }}>good cocktails</div>
     </div>
   )
 }

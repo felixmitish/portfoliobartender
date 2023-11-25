@@ -8,7 +8,7 @@ export default function Page() {
     <>
       <App />
       <Overlay />
-      <Logo style={{ position: 'absolute', bottom: 40, left: 40, width: 30 }} />
+      {/* <Logo style={{ position: 'absolute', bottom: 40, left: 40, width: 30 }} /> */}
     </>
   )
 }

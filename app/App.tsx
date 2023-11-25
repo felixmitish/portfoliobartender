@@ -29,13 +29,13 @@ function Images() {
   })
   return (
     <group ref={group}>
-      <Image position={[-2, 0, 0]} scale={[4, height, 1]} url="/img1.jpg" />
-      <Image position={[2, 0, 1]} scale={3} url="/img6.jpg" />
-      <Image position={[-2.3, -height, 2]} scale={[1, 3, 1]} url="/trip2.jpg" />
-      <Image position={[-0.6, -height, 3]} scale={[1, 2, 1]} url="/img8.jpg" />
-      <Image position={[0.75, -height, 3.5]} scale={1.5} url="/trip4.jpg" />
-      <Image position={[0, -height * 1.5, 2.5]} scale={[1.5, 3, 1]} url="/img3.jpg" />
-      <Image position={[0, -height * 2 - height / 4, 0]} scale={[width, height / 2, 1]} url="/img7.jpg" />
+      <Image position={[-2, 0, 0]} scale={[4, height, 1]} url="bar/14.jpg" />
+      <Image position={[2, 0, 1]} scale={3} url="bar/213.jpg" />
+      <Image position={[-2.3, -height, 2]} scale={[1, 3, 1]} url="bar/155.jpg" />
+      <Image position={[-0.6, -height, 3]} scale={[1, 2, 1]} url="bar/119.jpg" />
+      <Image position={[0.75, -height, 3.5]} scale={1.5} url="bar/141.jpg" />
+      <Image position={[0, -height * 1.5, 2.5]} scale={[1.5, 3, 1]} url="bar/48.jpg" />
+      <Image position={[0, -height * 2 - height / 4, 0]} scale={[width, height / 2, 1]} url="bar/218.jpg" />
     </group>
   )
 }
@@ -51,7 +51,7 @@ export default function App() {
           <Scroll html>
             <h1 className="absolute top-[23vh] left-[0.5em] text-7xl ">Catering & Cocktails</h1>
             <h1 className="absolute top-[70vh] left-[1vw] text-[18rem]">Feliks</h1>
-            <div className="absolute top-[225.5vh] left-[2vw] text-4xl text-white w-[80vw] space-y-4 bg-black/50 backdrop-blur-sm m-4 p-4 py-8">
+            <div className="absolute top-[215vh] left-[2vw] text-4xl w-[80vw] space-y-4 m-4 p-4 py-8">
               <h1 className="text-4xl">Contacts: </h1>
               <p className=" text-2xl">
                 Email:{' '}
@@ -65,6 +65,7 @@ export default function App() {
                   +33751470478{' '}
                 </a>
               </p>
+              <p></p>
             </div>
           </Scroll>
         </ScrollControls>
