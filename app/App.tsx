@@ -35,7 +35,7 @@ function Images() {
       <Image position={[-0.6, -height, 3]} scale={[1, 2, 1]} url="bar/119.jpg" />
       <Image position={[0.75, -height, 3.5]} scale={1.5} url="bar/141.jpg" />
       <Image position={[0, -height * 1.5, 2.5]} scale={[1.5, 3, 1]} url="bar/48.jpg" />
-      <Image position={[0, -height * 2 - height / 4, 0]} scale={[width, height / 2, 1]} url="bar/218.jpg" />
+      <Image position={[0, -height * 2.5 - height / 4, 0]} scale={[width, height / 2, 1]} url="bar/218.jpg" />
     </group>
   )
 }
@@ -44,14 +44,14 @@ export default function App() {
   return (
     <Canvas gl={{ antialias: false }} dpr={[1, 1.5]}>
       <Suspense fallback={null}>
-        <ScrollControls damping={0.2} pages={3}>
+        <ScrollControls damping={0.2} pages={3.5}>
           <Scroll>
             <Images />
           </Scroll>
           <Scroll html>
             <h1 className="absolute top-[23vh] left-[0.5em] text-7xl ">Catering & Cocktails</h1>
             <h1 className="absolute top-[70vh] left-[1vw] text-[18rem]">Feliks</h1>
-            <div className="absolute top-[215vh] left-[2vw] text-4xl w-[80vw] space-y-4 m-4 p-4 py-8">
+            <div className="absolute top-[270vh] left-[2vw] text-4xl w-[80vw] space-y-4 m-4 p-4 py-8">
               <h1 className="text-4xl">Contacts: </h1>
               <p className=" text-2xl">
                 Email:{' '}
@@ -65,7 +65,15 @@ export default function App() {
                   +33751470478{' '}
                 </a>
               </p>
+
               <p></p>
+            </div>
+            <div className="absolute top-[215vh] left-[2vw] text-4xl w-[80vw] space-y-4 m-4 p-4 py-8">
+              <p className=" text-2xl">
+                <p>Discover catering from our team!</p> Welcome to &quot;Cocktail d&apos;Azur&quot;, your premier destination for
+                exceptional bartending experiences! From tailored mixology to event coverage, we offer top-notch services across the French
+                Riviera, ensuring unforgettable moments for your special occasions. Contact us to elevate your events today!
+              </p>
             </div>
           </Scroll>
         </ScrollControls>
