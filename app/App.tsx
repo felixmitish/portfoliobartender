@@ -49,7 +49,7 @@ export default function App() {
             <Images />
           </Scroll>
           <Scroll html>
-            <h1 className="absolute top-[23vh] left-[0.5em] text-7xl ">Catering & Cocktails</h1>
+            <h1 className="absolute top-[23vh] left-[0.5em] text-7xl">Catering & Cocktails</h1>
             <h1 className="absolute top-[70vh] left-[1vw] text-[18rem]">Feliks</h1>
             <div className="absolute top-[270vh] left-[2vw] text-4xl w-[80vw] space-y-4 m-4 p-4 py-8">
               <h1 className="text-zinc-950 text-4xl">Contacts: </h1>
