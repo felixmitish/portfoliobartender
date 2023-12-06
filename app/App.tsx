@@ -52,14 +52,14 @@ export default function App() {
             <h1 className="absolute top-[23vh] left-[0.5em] text-7xl ">Catering & Cocktails</h1>
             <h1 className="absolute top-[70vh] left-[1vw] text-[18rem]">Feliks</h1>
             <div className="absolute top-[270vh] left-[2vw] text-4xl w-[80vw] space-y-4 m-4 p-4 py-8">
-              <h1 className="text-4xl">Contacts: </h1>
-              <p className=" text-2xl">
+              <h1 className="text-zinc-950 text-4xl">Contacts: </h1>
+              <p className=" text-2xl text-zinc-950">
                 Email:{' '}
-                <a className="cursor-pointer" href="mailto:felix.mitish@gmail.com">
+                <a className="cursor-pointer text-zinc-950" href="mailto:felix.mitish@gmail.com">
                   felix.mitish@gmail.com{' '}
                 </a>
               </p>
-              <p className=" text-2xl">
+              <p className=" text-zinc-950 text-2xl">
                 Phone:{' '}
                 <a className="cursor-pointer" href="tel:+33751470478">
                   +33751470478{' '}
@@ -69,7 +69,7 @@ export default function App() {
               <p></p>
             </div>
             <div className="absolute top-[215vh] left-[2vw] text-4xl w-[80vw] space-y-4 m-4 p-4 py-8">
-              <p className=" text-2xl">
+              <p className=" text-2xl text-zinc-950">
                 <p>Discover catering from our team!</p> Welcome to &quot;Cocktail d&apos;Azur&quot;, your premier destination for
                 exceptional bartending experiences! From tailored mixology to event coverage, we offer top-notch services across the French
                 Riviera, ensuring unforgettable moments for your special occasions. Contact us to elevate your events today!
